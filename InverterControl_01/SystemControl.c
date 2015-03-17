@@ -2454,7 +2454,7 @@ void SWData_Report() {
 			eCAN_TxMessage.eCAN_ID = eCANMsgID_SoftwareDateCode;
 			eCAN_TxMessage.Data_Length = 8;
 			eCAN_TxMessage.Data1 = 3;		 // Month
-			eCAN_TxMessage.Data2 = 10;		 // Date
+			eCAN_TxMessage.Data2 = 17;		 // Date	3/17/2015 Initial check-in to gitHub
 			eCAN_TxMessage.Data3 = 2015;	 // Year
 			eCAN_TxMessage.Data4 = 101;
 			eCAN_DataTx(&eCAN_TxMessage);
